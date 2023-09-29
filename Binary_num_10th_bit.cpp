@@ -1,7 +1,7 @@
 
 #include <iostream>
 
-int func10thBit(int num)
+int find10thBit(int num)
 {
     int arr[32];
     int mod = 0;
@@ -48,16 +48,16 @@ int func10thBit(int num)
 
 int main()
 {
-    int num = func10thBit(13527);
+    int num = find10thBit(13527);
     std::cout << "10th bit is " << num << std::endl;
 
-    int num_other = func10thBit(5);
+    int num_other = find10thBit(5);
     std::cout << " 10th bit is " << num_other << std::endl;
 
-    int num_another = func10thBit(2048);
+    int num_another = find10thBit(2048);
     std::cout << "10th bit is " << num_another << std::endl;
 
-    int num_another1 = func10thBit(2520);
+    int num_another1 = find10thBit(2520);
     std::cout << "10th bit is " << num_another1 << std::endl;
 
     return 0;
